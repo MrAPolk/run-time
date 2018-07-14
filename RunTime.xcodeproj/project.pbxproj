@@ -12,8 +12,14 @@
 		DDB78F6820F993E10078CB98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB78F6620F993E10078CB98 /* Main.storyboard */; };
 		DDB78F6A20F993E20078CB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB78F6920F993E20078CB98 /* Assets.xcassets */; };
 		DDB78F6D20F993E20078CB98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB78F6B20F993E20078CB98 /* LaunchScreen.storyboard */; };
-		DDB78F7820F993E20078CB98 /* RunTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB78F7720F993E20078CB98 /* RunTimeTests.swift */; };
+		DDB78F7820F993E20078CB98 /* RunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB78F7720F993E20078CB98 /* RunTests.swift */; };
 		DDB78F8320F993E20078CB98 /* RunTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB78F8220F993E20078CB98 /* RunTimeUITests.swift */; };
+		DDB78F9220F9D7F70078CB98 /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB78F9120F9D7F70078CB98 /* Stage.swift */; };
+		DDB78F9320F9D7F70078CB98 /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB78F9120F9D7F70078CB98 /* Stage.swift */; };
+		DDB78F9420F9D7F70078CB98 /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB78F9120F9D7F70078CB98 /* Stage.swift */; };
+		DDB78F9620F9D8DC0078CB98 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB78F9520F9D8DC0078CB98 /* Run.swift */; };
+		DDB78F9720F9D8DC0078CB98 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB78F9520F9D8DC0078CB98 /* Run.swift */; };
+		DDB78F9820F9D8DC0078CB98 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB78F9520F9D8DC0078CB98 /* Run.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +48,13 @@
 		DDB78F6C20F993E20078CB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDB78F6E20F993E20078CB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDB78F7320F993E20078CB98 /* RunTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDB78F7720F993E20078CB98 /* RunTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTimeTests.swift; sourceTree = "<group>"; };
+		DDB78F7720F993E20078CB98 /* RunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTests.swift; sourceTree = "<group>"; };
 		DDB78F7920F993E20078CB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDB78F7E20F993E20078CB98 /* RunTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB78F8220F993E20078CB98 /* RunTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTimeUITests.swift; sourceTree = "<group>"; };
 		DDB78F8420F993E20078CB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB78F9120F9D7F70078CB98 /* Stage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage.swift; sourceTree = "<group>"; };
+		DDB78F9520F9D8DC0078CB98 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		DDB78F6120F993E10078CB98 /* RunTime */ = {
 			isa = PBXGroup;
 			children = (
+				DDB78F9020F9D7DD0078CB98 /* Data */,
 				DDB78F6220F993E10078CB98 /* AppDelegate.swift */,
 				DDB78F6420F993E10078CB98 /* ViewController.swift */,
 				DDB78F6620F993E10078CB98 /* Main.storyboard */,
@@ -110,7 +119,7 @@
 		DDB78F7620F993E20078CB98 /* RunTimeTests */ = {
 			isa = PBXGroup;
 			children = (
-				DDB78F7720F993E20078CB98 /* RunTimeTests.swift */,
+				DDB78F7720F993E20078CB98 /* RunTests.swift */,
 				DDB78F7920F993E20078CB98 /* Info.plist */,
 			);
 			path = RunTimeTests;
@@ -123,6 +132,15 @@
 				DDB78F8420F993E20078CB98 /* Info.plist */,
 			);
 			path = RunTimeUITests;
+			sourceTree = "<group>";
+		};
+		DDB78F9020F9D7DD0078CB98 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DDB78F9120F9D7F70078CB98 /* Stage.swift */,
+				DDB78F9520F9D8DC0078CB98 /* Run.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB78F9220F9D7F70078CB98 /* Stage.swift in Sources */,
+				DDB78F9620F9D8DC0078CB98 /* Run.swift in Sources */,
 				DDB78F6520F993E10078CB98 /* ViewController.swift in Sources */,
 				DDB78F6320F993E10078CB98 /* AppDelegate.swift in Sources */,
 			);
@@ -265,7 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDB78F7820F993E20078CB98 /* RunTimeTests.swift in Sources */,
+				DDB78F9320F9D7F70078CB98 /* Stage.swift in Sources */,
+				DDB78F9720F9D8DC0078CB98 /* Run.swift in Sources */,
+				DDB78F7820F993E20078CB98 /* RunTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB78F9420F9D7F70078CB98 /* Stage.swift in Sources */,
+				DDB78F9820F9D8DC0078CB98 /* Run.swift in Sources */,
 				DDB78F8320F993E20078CB98 /* RunTimeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
